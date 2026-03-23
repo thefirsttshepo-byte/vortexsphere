@@ -1,0 +1,41 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Base styles */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+  color: #111827;
+}
+
+/* Custom utility classes */
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 500;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-secondary {
+  border: 1px solid #d1d5db;
+  color: #374151;
+  font-weight: 500;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: #f9fafb;
+}
